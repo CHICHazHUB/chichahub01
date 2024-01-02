@@ -1,0 +1,11 @@
+getgenv().Keys = {
+
+    Preload = {
+        ["WHITELIST"] = "",
+       }
+    
+    }
+
+if getgenv().Keys.Preload.WHITELIST == "Chichahub" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CHICHazHUB/chichahub01/main/001"))() 
+end
